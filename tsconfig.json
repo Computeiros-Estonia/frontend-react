@@ -11,6 +11,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["vite.config.js","./scripts", "./src"],
-    "files": ["./hardhat.config.ts"]
+  "include": ["vite.config.js"],
+  "files": ["./hardhat.config.ts"]
 }
