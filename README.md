@@ -1,53 +1,56 @@
-# FrontEnd Ecommerce Web 3.0
+# Marketplace em React Web 3.0
 
-## Introdução
+## 🚀 Introdução
 
-Este é um projeto de Marketplace em React Web 3.0 que permite aos usuários comprar e vender produtos usando criptomoedas.
+Bem-vindos ao nosso projeto de Marketplace em React Web 3.0! 🎉 Aqui, você poderá comprar e vender produtos incríveis **usando criptomoedas**. 😎
 
-O projeto utiliza tecnologias modernas como React, Web3.js, Ethereum e IPFS para fornecer uma experiência de usuário segura e descentralizada.
+Usando tecnologias modernas como React, Web3.js, Ethereum e IPFS, criamos uma experiência de usuário segura e descentralizada. 🤖
 
-## Configuração do ambiente
+## ⚙️ Configuração do ambiente
 
-Para executar o projeto, você precisa configurar o ambiente de desenvolvimento com as seguintes ferramentas e dependências:
+Para executar o projeto, você precisará configurar o ambiente de desenvolvimento com as seguintes ferramentas e dependências:
 
-- Node.js
-- npm
-- IPFS
+- Node.js 🌳
+- Npm 📦
+- IPFS 🛡️
 
-## Instalação
+## 💻 Instalação
 
-Faça um clone deste repositório para o seu computador.
-Abra o terminal e navegue até o diretório do projeto.
-Execute o comando `npm i` para instalar as dependências do projeto.
+Para instalar o projeto, siga estas etapas:
 
-## Executando o projeto
+- 💻 Clone este repositório para o seu computador.
+- 👨‍💻 Abra o terminal e navegue até o diretório do projeto.
+- 🤖 Execute o comando `npm i` para instalar as dependências do projeto.
 
-Para executar o projeto, siga as etapas abaixo:
+## 🏃 Executando o projeto
 
-- Execute o comando `npm start` para iniciar o servidor de desenvolvimento.
-- Abra o navegador e acesse http://localhost:3000 para ver o projeto em execução.
+Para executar o projeto, siga estas etapas:
 
-## Recursos do projeto
+- 👣Execute o comando `npm run dev` para iniciar o servidor de desenvolvimento.
+- 👣 Abra o navegador e acesse http://localhost:5173 para ver o projeto em execução.
 
-O projeto possuirá as seguintes funcionalidades de acordo com nosso cronograma:
+## 🔥 Recursos do projeto
 
-- Login e registro de usuários.
-- Visualização de produtos à venda.
-- Compra de produtos usando criptomoedas.
-- Venda de produtos com upload de imagens usando IPFS.
-- Suporte a múltiplas criptomoedas para transações.
+Nosso projeto de Marketplace inclui uma variedade de funcionalidades incríveis, como:
 
-Para mais informações, consulte a aba [Projetos](https://github.com/orgs/Computeiros-Estonia/projects/1/views/1)
+- Login e registro de usuários 🔐
+- Visualização de produtos à venda 👀
+- Compra de produtos usando criptomoedas 💰
+- Venda de produtos com upload de imagens usando IPFS 🌐
+- Suporte a múltiplas criptomoedas para transações 💸
 
-## Contribuindo
+Para mais informações sobre nossas funcionalidades e nosso cronograma, confira nosso [Roadmap](https://github.com/orgs/Computeiros-Estonia/projects/1) disponível na aba de "Projetos".
 
-Este projeto é de código aberto e as contribuições são bem-vindas. Se você deseja contribuir, siga estas etapas:
+## 🤝 Contribuindo
 
-- Faça um fork deste repositório.
+Nosso projeto é de código aberto e adoraríamos receber contribuições sua! Se você deseja contribuir, siga estas etapas:
+
+- Abra uma [Issue](https://github.com/Computeiros-Estonia/frontend-react/issues) ou [Discussão](https://github.com/Computeiros-Estonia/frontend-react/discussions). O primeiro para relatar bugs e o segundo para discutir novas funcionalidades.
+- Faça um **fork** deste repositório.
 - Crie um branch com o nome da sua funcionalidade ou correção de bugs.
 - Implemente as alterações necessárias.
 - Envie um pull request para este repositório.
 
-## Licença
+## 📜 Licença
 
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Este projeto está licenciado sob a licença MIT. Para mais informações, consulte o arquivo LICENSE. 📃
