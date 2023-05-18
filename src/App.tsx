@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { useState } from 'react';
+import { ethers } from 'ethers';
 
 function App() {
   const [account, setAccount] = useState<string>('');

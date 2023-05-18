@@ -2,11 +2,12 @@
   "name": "frontend-estoniatech",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@primer/react": "^35.25.1",
+    "ethers": "^6.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "web3": "^1.10.0"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "dev": "vite",
@@ -24,6 +25,7 @@
     "eslint": "^8.40.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "hardhat": "^2.14.0",
     "typescript": "^5.0.4",
     "vite": "^4.3.7"
   }
