@@ -13,7 +13,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@types/react": "^18.2.6",
@@ -26,6 +27,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
     "hardhat": "^2.14.0",
+    "standard-version": "^9.5.0",
     "typescript": "^5.0.4",
     "vite": "^4.3.7"
   }
