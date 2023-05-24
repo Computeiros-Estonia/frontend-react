@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { useState } from 'react';
 import { ethers } from 'ethers';
