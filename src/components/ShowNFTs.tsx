@@ -1,9 +1,24 @@
 import React, { useEffect, useState } from 'react';
 //import { MyERC721Contract } from '../../contracts';
 import {NavList} from '@primer/react'
+import { ethers } from 'ethers';
+
+type NFT = {
+  tokenId: number;
+  name: string;
+  description: string;
+  imageURI: string;
+  attributes: Attribute[];
+  owner: string;
+};
+
+type Attribute = {
+  trait_type: string;
+  value: string;
+};
 
 const NFTList: React.FC = () => {
-  const [nfts, setNFTs] = useState<string[]>([]);
+  const [nfts, setNFTs] = useState<NFT[]>([]);
 
   useEffect(() => {
     const fetchNFTs = async () => {
@@ -45,7 +60,7 @@ const NFTList: React.FC = () => {
           <img src={nft.imageURI} alt={nft.name} />
           <p>Owner: {nft.owner}</p>
           <ul>
-            {nft.attributes.map((attribute: any, index: number) => (
+            {nft.attributes.map((attribute: Attribute, index: number) => (
               <li key={index}>
                 {attribute.trait_type}: {attribute.value}
               </li>

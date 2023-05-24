@@ -3,7 +3,7 @@
     "tokenId": 1,
     "name": "NFT 1",
     "description": "Example NFT 1",
-    "imageURI": "https://example.com/nft1.jpg",
+    "imageURI": "https://images.pexels.com/photos/3965543/pexels-photo-3965543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "attributes": [
       {
         "trait_type": "Color",
@@ -20,7 +20,7 @@
     "tokenId": 2,
     "name": "NFT 2",
     "description": "Example NFT 2",
-    "imageURI": "https://example.com/nft2.jpg",
+    "imageURI": "https://images.pexels.com/photos/3965543/pexels-photo-3965543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "attributes": [
       {
         "trait_type": "Color",
@@ -37,7 +37,7 @@
     "tokenId": 3,
     "name": "NFT 3",
     "description": "Example NFT 3",
-    "imageURI": "https://example.com/nft3.jpg",
+    "imageURI": "https://images.pexels.com/photos/3965543/pexels-photo-3965543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "attributes": [
       {
         "trait_type": "Color",
