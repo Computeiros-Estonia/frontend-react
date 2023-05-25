@@ -25,7 +25,7 @@
     "@types/web3": "^1.2.2",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
-    "@vitejs/plugin-react-swc": "^3.3.1",
+    "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.40.0",
     "eslint-plugin-primer-react": "^3.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -33,6 +33,7 @@
     "hardhat": "^2.14.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.0.4",
-    "vite": "^4.3.7"
+    "vite": "^4.3.7",
+    "vite-plugin-react-pages": "^4.1.2"
   }
 }

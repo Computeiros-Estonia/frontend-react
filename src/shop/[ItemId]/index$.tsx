@@ -6,11 +6,11 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 const IndexPage = () => {
-  const { userId } = useParams<{ userId: string }>()
+  const { itemId } = useParams<{ itemId: string }>()
   return (
     <div>
       <div>User Main Page</div>
-      <div>userId: {userId}</div>
+      <div>itemId: {itemId}</div>
     </div>
   )
 }

@@ -1,22 +1,11 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
-import { resolve } from 'path'
-
-const root = resolve(__dirname, 'src')
-const outDir = resolve(__dirname, 'dist')
+import * as path from 'path'
+import pages from 'vite-plugin-react-pages'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  root,
-  plugins: [react()],
-  build: {
-    outDir,
-    emptyOutDir: true,
-    minify: true,
-    rollupOptions: {
-      input: {
-        main: resolve(root, 'index.html'),
-        about: resolve(root, 'shop.html'),
-      },
-    },
-  }
+  plugins: [react(),
+    pages({ 
+      pagesDir: path.join(__dirname, 'pages'),
+    }),]
 })

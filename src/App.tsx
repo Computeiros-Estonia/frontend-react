@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import NFTList  from 'components/NFTList.tsx';
+import NFTList  from '../components/NFTList';
 import { PageLayout } from '@primer/react';
 
 function App() {
