@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import './App.css';
 import { useState } from 'react';
-import { ethers } from 'ethers';
+import NFTList  from 'components/NFTList.tsx';
+import { PageLayout } from '@primer/react';
 
 function App() {
   const [account, setAccount] = useState<string>('');

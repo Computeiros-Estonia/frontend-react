@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 //import { MyERC721Contract } from '../../contracts';
-import {NavList} from '@primer/react'
-import { ethers } from 'ethers';
+import {} from '@primer/react'
+//import { ethers } from 'ethers';
 
 type NFT = {
   tokenId: number;
@@ -52,7 +52,7 @@ const NFTList: React.FC = () => {
 
   return (
     <div>
-      <h1>List of NFTs</h1>
+      <h1>Lista de NFTs</h1>
       {nfts.map((nft) => (
         <div key={nft.tokenId}>
           <h2>{nft.name}</h2>
