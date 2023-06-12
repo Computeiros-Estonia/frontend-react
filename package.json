@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@metamask/providers": "^11.0.0",
     "@primer/react": "^35.25.1",
     "ethers": "^6.3.0",
     "react": "^18.2.0",

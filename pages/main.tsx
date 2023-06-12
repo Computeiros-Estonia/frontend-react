@@ -5,8 +5,8 @@ import {ThemeProvider} from '@primer/react'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-        <ThemeProvider>
-          <App />
+    <ThemeProvider>
+      <App />
     </ThemeProvider>
   </React.StrictMode>,
 )

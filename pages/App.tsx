@@ -4,12 +4,6 @@ import NFTList  from '../components/NFTList';
 import { PageLayout } from '@primer/react';
 
 function App() {
-  const [account, setAccount] = useState<string>('');
-  const [shoes, setShoes] = useState<{ id: number; name: string; price: number }[]>([]);
-  const [shoeName, setShoeName] = useState<string>('');
-  const [shoePrice, setShoePrice] = useState<number>(0);
-  const [selectedShoe, setSelectedShoe] = useState<{ id: number; name: string; price: number } | null>(null);
-  const [message, setMessage] = useState<string>('');
 
   const { ethereum } = window as any;
 
