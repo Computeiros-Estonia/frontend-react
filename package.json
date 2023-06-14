@@ -31,7 +31,6 @@
     "eslint-plugin-primer-react": "^3.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
-    "hardhat": "^2.14.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.0.4",
     "vite": "^4.3.7",

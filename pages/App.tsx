@@ -5,13 +5,10 @@ import { PageLayout } from '@primer/react';
 
 function App() {
 
-  const { ethereum } = window as any;
-
-
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Marketplace de Sapatos</h1>
+        <h1>Marketplace Liberal</h1>
         <div>
           {account ? (
             <p>Conectado com a conta: {account}</p>
@@ -24,7 +21,6 @@ function App() {
         <h2>Criar Sapato</h2>
         <form onSubmit={(event) => {
           event.preventDefault();
-          addShoe();
         }}>
           <label htmlFor="shoeName">Nome do Sapato:</label>
           <input type="text" id="shoeName" value={shoeName} onChange={(event) => setShoeName(event.target.value)} required />
