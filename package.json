@@ -33,7 +33,7 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "standard-version": "^9.5.0",
     "typescript": "^5.0.4",
-    "vite": "^4.3.7",
+    "vite": "^4.3.9",
     "vite-plugin-react-pages": "^4.1.2"
   }
 }
